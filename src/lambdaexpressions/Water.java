@@ -4,7 +4,6 @@ public class Water {
 	private String source;
 	
 	public Water(String source) {
-		super();
 		this.source = source;
 	}
 
