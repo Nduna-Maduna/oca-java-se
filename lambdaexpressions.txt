@@ -1,0 +1,14 @@
+Exam Objective    Write a simple Lambda expression that consumes a Lambda Predicate expression
+
+must have a functional interface
+Single Abstract Method (SAM)
+
+must have one abstract method
+
+method name is known, therefore it is excluded from the actual lambda expression
+
+syntax:
+
+(parameter list) -> expression
+or
+(parameter list) -> {statements;}
