@@ -5,6 +5,8 @@ import java.util.List;
 
 import javafx.scene.paint.Color;
 
+import static lambdaexpressions.PlanetPredicates.*;
+
 
 public class PlanetApp {
 
@@ -28,8 +30,25 @@ public class PlanetApp {
 		planetList.add(uranus);
 		planetList.add(neptune);
 		
-		// SCENARIO 1
+		// SCENARIO 1 - Which planets have rings?
+		System.out.println("Has one or more rings: " + listFilteredPlanets(planetList, (Planet p) -> p.isRinged()));
 		
+		// SCENARIO 2 - Which planets are blue and have moons?
+		System.out.print("Has moons and is blue: ");
+		planetList.stream().filter(p -> p.getNumberOfMoons() > 0 & (p.getPrimaryColor() == Color.BLUE)).forEach(s -> System.out.print(s + " "));
+		
+		// SCENARIO 3 - Which planets have more than twenty moons?
+		System.out.println("\nHas over twenty moons: " + filterPlanets(planetList, hasMoonsMoreThan(20)));
+		
+		// SCENARIO 4 - Which planet has a color (other than black)
+		System.out.print("Has a color not black: ");
+		planetList.stream().filter(hasAColor()).forEach(s -> System.out.print(s + " "));
+		
+		// SCENARIO 5 - Which planets have moons?
+		planetList.removeIf((Planet p) -> {
+			return (p.getNumberOfMoons() == 0);
+		});
+		System.out.println("\nHas one or more moons: " + planetList);
 	}
 
 }
