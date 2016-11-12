@@ -1,5 +1,6 @@
 package lambdaexpressions;
 
+// Water Class
 public class Water {
 	private String source;
 	

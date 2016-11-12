@@ -6,3 +6,9 @@ Write Lambda Expressions
 Predicate functional interface (FI)
 
 Functional Interfaces and lambda expression syntax 
+
+Predicate Functional Interface exam
+java.util.function package
+boolean test(T t);
+
+@FunctionalInterface annotation

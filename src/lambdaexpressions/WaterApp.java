@@ -36,16 +36,16 @@ public class WaterApp {
 		// Without sort
 		System.out.println("Not Sorted: " + waterList);
 		
-		// With sort
+		// With WaterSort class
 		// WaterSort waterSort = new WaterSort();
 		
 		// With Anonymous Inner Class
-//		Comparator<Water> waterSort = new Comparator<Water>() {
-//			@Override
-//			public int compare(Water w1, Water w2) {
-//				return w1.getSource().compareTo(w2.getSource());
-//			}
-//		};
+		//Comparator<Water> waterSort = new Comparator<Water>() {
+		//	@Override
+		//	public int compare(Water w1, Water w2) {
+		//		return w1.getSource().compareTo(w2.getSource());
+		//	}
+		//};
 		
 		// With Comparator Functional Interface used with a Lambda Expression
 		//Comparator<Water> waterSort = (Water w1, Water w2) -> w1.getSource().compareTo(w2.getSource());
@@ -55,7 +55,9 @@ public class WaterApp {
 		//Collections.sort(waterList, (Water w1, Water w2) -> w1.getSource().compareTo(w2.getSource()));
 		
 		// further simplified by removing the class names
-		Collections.sort(waterList, (w1, w2) -> w1.getSource().compareTo(w2.getSource()));
+		//Collections.sort(waterList, (w1, w2) -> w1.getSource().compareTo(w2.getSource()));
+		
+		waterList.sort(Comparator.comparing(w -> w.getSource()));
 		System.out.println("Sorted: " + waterList);
 		
 	}
