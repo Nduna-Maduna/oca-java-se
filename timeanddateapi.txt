@@ -7,3 +7,59 @@ java.time.LocalDate
 java.time.LocalTime
 java.time.format.DateTimeFormatter
 java.time.Period
+
+java.time
+java.time.chrono
+java.time.format
+java.time.temporal
+java.time.zone
+
+Exam
+java.time package
+LocalTime
+LocalDate
+LocalDateTime
+DateTimeFormatter
+Period
+
+Date
+Calendar
+GregorianCalendar
+
+Exam
+Three calendar data creation classes
+LocalDate		year-month-day
+LocalTime		hour-minute-second
+LocalDateTime	year-month-day-hour-minute-second
+
+OffsetTime		hour-minute-second offset
+OffsetDateTime
+
+ZonedDateTime
+ZonedOffset
+
+Year
+YearMonth
+MonthDay
+
+DayOfWeek
+Month
+
+Period
+Duration
+
+Instant
+
+Clock
+
+DateTimeException
+
+Date and Time API method prefixes
+
+of
+parse
+now
+
+LocalTime
+LocalDate
+LocalDateTime

@@ -1,0 +1,117 @@
+platform independence
+object orientation
+encapsulation
+polymorphism
+inheritance
+abstraction
+
+platform independence
+java language is compiled, it is targeted for execution on the Java Virtual Machine (JVM)
+compiled java code is called byte code
+
+object-oriented
+encapsulation
+abstraction
+inheritance
+polymorphism
+
+Packages
+Java Abstract Window Toolkit API
+Java Swing API
+Java Basic Input/Output API
+Java Networking API
+Java Utilities API
+core Java language API
+
+Fully Qualified Class Name: package name plus class name
+
+package statement at the beginning of the file
+zero or one package statement per source file
+
+import statement or
+precede each class name with its package name
+
+java.lang package which houses the core language classes is imported by default
+
+java.* and javax.* are reserved
+
+import statement
+appear after the optional package statement and before the class definition
+
+Compile:
+javac TestClass.java
+
+Run:
+java TestClass
+
+Java Utilities API: java.util
+Java Collections Framework
+legacy date and time
+internationalization
+
+Collections API
+Comparator interface in the java.util package: ordering is not natural
+Comparable interface in the java.lang package: ordering is natural
+
+List:ArrayList,LinkedList,Vector			Positional access
+Map:HashMap,Hashtable,LinkedHashMap,TreeMap	Map keys to values
+Set:HashSet,LinkedHashSet,TreeSet			Element uniqueness
+Queue: PriorityQueue						FIFO
+
+java.util
+Legacy date and time: Date, Calendar, TimeZone
+Geographical regions: Locale
+Currency class
+Random class
+StringTokenizer class
+Timer class
+
+Java Basic Input/Output API
+java.io
+
+Class structure
+
+Naming Conventions
+Generic Type parameters	Single uppercase letter The letter T is recommended
+
+/** */ Indicates javadoc comments
+
+@Override annotation indicates that a method declaration intends on overriding a method declaration in the class's
+supertype
+
+The Java Compiler converts Java source files to bytecode
+javac [options] [source files]
+javac GreetingsUniverse.java
+javac -d classes GreetingsUniverse.java
+javac -d classes -cp 3rdPartyCode\classes\;. GreetingsUniverse.java
+javac -d classes -classpath 3rdPartyCode\classes\;. GreetingsUniverse.java
+CLASSPATH environment variable
+
+
+The Java interpreter
+java [-options] class [args...]
+java MainClass
+javaw MainClass
+java MainClass &
+
+java -cp classes com.ocajexam.tutorial.MainClass
+java -D<name>=<value> class
+java -version
+
+selftest
+
+1.	A and B		Y
+2.	D			Y
+3.	B			Y
+4.	D			Y
+5.	C			Y
+6.	C			Y
+7.	C			Y
+8.	D			Y
+9.	A and B		Y
+10.	A			Y
+11.	B			Y
+12.	D			Y
+13.	A and C		Y
+14.	A and C		Y
+15.	A and D
