@@ -1,0 +1,27 @@
+Four main categories
+
+expression
+conditional
+iteration
+transfer of control: continue, break, return
+
+if statement allows for optional use of else branch
+
+if-then statement must have at least one else if branch. You cannot use an else statement
+
+if-then-else statement must have at least one else if branch. Else statement
+
+self test
+
+1.D Y
+2.B Y
+3.A and C Y
+4.C Y
+5.A and B and C Y
+6.F Y
+7.A Y
+8.A Y
+9.C Y
+10.A and B and C Y 
+11.B Y
+12.C
