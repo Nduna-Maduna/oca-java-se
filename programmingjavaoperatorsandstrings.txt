@@ -1,0 +1,21 @@
+self test
+
+1.DY
+2.CY
+3.DY
+4.AY
+5.BY
+6.CY
+7.A and CY
+8.EY
+9.BY
+10.BN
+11.DY
+12.AN
+13.CY
+14.CN
+15.CY
+16.B and C and DY
+17.CY
+18.BY
+19.D
