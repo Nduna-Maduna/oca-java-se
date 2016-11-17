@@ -1,37 +1,37 @@
 Self test
 
-1. A and F and I and N
+1. A and F and I and N and O
 
-2. D
+2. DY
 
-3. A
+3. AY
 
-4. B
+4. BY
 
-5. C
+5. CY
 
-6. F
+6. FY
 
-7. D
+7. DY
 
-8. A
+8. AY
 
-9. G
+9. GY
 
-10. C
+10. CY
 
 11. A? and B and D
 
-12. 2
+12. CY
 
 13. B
 
-14. B
+14. BY
 
-15. B
+15. BY
 
-16. C
+16. CY
 
-17. B
+17. BY
 
 18. A, E

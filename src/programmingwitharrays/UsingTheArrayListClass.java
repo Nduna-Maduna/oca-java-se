@@ -15,6 +15,9 @@ public class UsingTheArrayListClass {
 		Integer integer3 = new Integer(900);
 		basicArrayList.add(1, integer3);
 		System.out.println(basicArrayList.get(0) + " - " + basicArrayList.get(1) + " - " + basicArrayList.get(2));
+		
+		
+		ArrayList<int[]> abc = new ArrayList<int[]>();
 	}
 
 }
