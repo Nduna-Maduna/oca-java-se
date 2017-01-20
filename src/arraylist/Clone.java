@@ -1,9 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
+package arraylist;
 
-public class ShallowCopy {
+import java.util.ArrayList;
+
+public class Clone {
 
 	public static void main(String[] args) {
+		// Shallow copy
 		ArrayList<String> list1 = new ArrayList<>();
 		list1.add("a");
 		list1.add("b");
