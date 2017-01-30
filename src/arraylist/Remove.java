@@ -34,6 +34,16 @@ public class Remove {
 		
 		System.out.println("list contains: ");
 		list2.forEach(System.out::println);
+		
+		
+		ArrayList<Integer> intList = new ArrayList<Integer>();
+		intList.add(0);
+		intList.add(new Integer(0));
+		intList.remove(new Integer(0));
+		intList.remove(0);
+		intList.add(new Integer(0), new Integer(0));
+		
+		intList.forEach(System.out::println);
 	}
 
 }
